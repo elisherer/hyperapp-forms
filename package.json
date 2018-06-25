@@ -1,0 +1,33 @@
+{
+  "name": "hyperapp-forms",
+  "version": "0.1.0",
+  "description": "Hyperapp form state management library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisherer/hyperapp-forms.git"
+  },
+  "keywords": [
+    "hyperapp",
+    "form",
+    "forms"
+  ],
+  "author": "Eli Sherer <eli.sherer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elisherer/hyperapp-forms/issues"
+  },
+  "homepage": "https://github.com/elisherer/hyperapp-forms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "rollup": "^0.56.2",
+    "rollup-plugin-babel": "^4.0.0-beta.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
