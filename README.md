@@ -130,6 +130,8 @@ The resolve or reject argument should be
 
 ## Usage example
 
+Checkout a working example: [hyperapp-less-boilerplate](https://github.com/elisherer/hyperapp-less-boilerplate)
+
 ```js
 
 const signIn = (values, actions) => new Promise((resolve, reject) => {
